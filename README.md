@@ -48,7 +48,8 @@ git clone --recurse-submodules
 ```
 
 ## Building
-This project uses the 'normal' CMake based build.
+This project uses the 'normal' CMake based build.  
+The build depends on cmake (obviously), gcc-arm-none-eabi, and libnewlib-dev.
 
 Two boards are supported, and the RP2040 and RP2350 produce incompatible
 `.uf2` images, so build for the board you actually have:
