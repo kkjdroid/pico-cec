@@ -72,7 +72,7 @@ Switching boards requires a clean build directory (`rm -rf build`).
 
 ### Customising the Build
 The CMake project supports three options:
-* PICO_BOARD: specify variant of Pico board, defaults to Seeed XIAO RP2350
+* PICO_BOARD: specify variant of Pico board, defaults to Seeed XIAO RP2350 (potential values [here](https://github.com/raspberrypi/pico-sdk/tree/master/src/boards/include/boards))
 * CEC_PIN: specify GPIO pin for HDMI CEC, defaults to GPIO3
 * CEC_OSD_NAME: specify the OSD string for HDMI input Pico-CEC is controlling, defaults to "Pico-CEC"
 Example invocation to specify:
